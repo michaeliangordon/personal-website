@@ -1,0 +1,27 @@
+---
+title: "Michael Gordon"
+image: "images/Gordon.jpg"
+links:
+  - label: '`r fontawesome::fa("linkedin", height = "25px")`'
+    url: "https://www.linkedin.com/in/michaeliangordon/"
+  - label: '`r fontawesome::fa("github", height = "25px")`'
+    url: "https://github.com/michaeliangordon/personal-website"
+  - label: '`r fontawesome::fa("envelope", height = "25px")`'
+    url: "mailto:michael.gordon@oregonstate.edu"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+Welcome to my personal website

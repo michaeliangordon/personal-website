@@ -1,0 +1,34 @@
+---
+title: "My first article"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+  - name: Michael Gordon
+    affiliation: Molecular and Cellular Biology
+journal: Plant Ecology
+volume: 220
+doi: "10.1007/s11258-019-00952-x"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+bibliography: article1.bib
+nocite: '@*'
+---
+
+All analyses were done using R 4.0.4 [@R-base].
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web. 
+
+Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+
+
+
+
+

@@ -1,0 +1,21 @@
+name: "."
+title: "Michael Gordon"
+description: |
+  Michael Gordon
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Teaching"
+      menu:
+         - text: "First article"
+           href: articles/article1.html
+         - text: "Second article"
+           href: articles/article2.html
+    - icon: fab fa-github
+      href: https://github.com/michaeliangordon/personal-website
+output: distill::distill_article
+theme: theme.css
